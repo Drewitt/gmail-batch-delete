@@ -3,6 +3,7 @@
  * Script uses Gmail API in AppsScript (https://developers.google.com/apps-script/advanced/gmail) rather than native Gmail service provided in AppScript for performance.
  * Script can be executed as a 1-off or set to run with a time based trigger.
  * Note: Rate limits assume a business or enterprise subscription to Google Workspace/Gmail. If on a free Gmail account, please adjust accordingly.
+ * Note: Default queryString will find/delete emails in inbox older than 3 months. PLEASE EDIT TO YOUR USE CASE BEFORE USE!
  * Author: F.Drewitt
  */
 
